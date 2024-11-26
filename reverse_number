@@ -1,0 +1,3 @@
+n=int(input())
+l=str(n)[::-1] // convert int into str and use :: to reverse it
+print(int(l))
