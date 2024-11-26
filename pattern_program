@@ -24,7 +24,7 @@ n=int(input())
 m=n
 func(n)
 
-#1234 5 4321'''
+#1234 5 4321
 
 def func(int n):
     if n==0:
