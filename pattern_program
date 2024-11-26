@@ -1,0 +1,38 @@
+#54321012345
+
+def func(int n):
+    if n==0:
+        print(0)
+        return 0
+    print(m-n+1)
+    func(n-1)
+    print(n)
+n=int(input())
+m=n
+func(n)
+
+#12345 0 54321
+
+def func(int n):
+    if n==0:
+        print(0)
+        return 0
+    print(m-n+1)
+    func(n-1)
+    print(m-n+1)
+n=int(input())
+m=n
+func(n)
+
+#1234 5 4321'''
+
+def func(int n):
+    if n==0:
+        return 0
+    print(m-n+1)
+    func(n-1)
+    if n!=1:
+        print(m-n+1)
+n=int(input())
+m=n
+func(n)
