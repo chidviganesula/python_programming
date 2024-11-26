@@ -1,0 +1,23 @@
+//6. check if a number is googly or not
+
+import math
+def prime(n):
+    if n==2:
+        return true
+    else:
+        for i in range(2,int(math.sqrt(n))+1):       // u can use either int(math.sqrt(n))+1 or int(n**0.5)+1 where ** means exponent
+            if n%i==0:
+                return false
+        return true
+n=int(input())
+sum=0
+while(n>0):
+    rem=n%10
+    sum+=rem;
+    n=n//10
+if prime(n):
+    print("GOOGLY")
+else:
+    print("NOT GOOGLY")
+
+------------------------------
