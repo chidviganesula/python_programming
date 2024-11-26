@@ -1,0 +1,10 @@
+#2. check if a no is 5-digit, if-yes print the sum of digits
+n=int(input())
+l=list(str(n))
+sum=0
+if len(l)==5:
+    for i in l:
+        sum=sum+int(i)
+else:
+    print('not 5-digit')
+print(sum)
