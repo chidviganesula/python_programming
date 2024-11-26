@@ -1,0 +1,14 @@
+//3. Armstrong Number
+n=int(input())
+m=n
+l=list(str(n))
+length=len(l)
+sum=0
+while(n>0):
+    rem=n%10
+    sum=sum+pow(rem,length)
+    n=n//10
+if m==sum:
+    print("armstrong")
+else:
+    print("not armstrong")
